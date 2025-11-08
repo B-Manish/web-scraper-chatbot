@@ -286,8 +286,8 @@ function App() {
           { role: 'assistant', content: assistantMessage },
         ])
 
-        // Speak the response
-        speakText(assistantMessage)
+        // Text-to-speech disabled - uncomment the line below to enable
+        // speakText(assistantMessage)
       } catch (error) {
         console.error('Error:', error)
         setMessages((prev) => [
@@ -428,8 +428,8 @@ function App() {
         { role: 'assistant', content: assistantMessage },
       ])
 
-      // Speak the response
-      speakText(assistantMessage)
+      // Text-to-speech disabled - uncomment the line below to enable
+      // speakText(assistantMessage)
     } catch (error) {
       console.error('Error:', error)
       setMessages((prev) => [
