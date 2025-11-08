@@ -1,0 +1,6 @@
+agno
+openai
+beautifulsoup4
+qdrant-client
+chonkie
+

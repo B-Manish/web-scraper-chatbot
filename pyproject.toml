@@ -1,0 +1,20 @@
+[project]
+name = "aiboomi-project"
+version = "0.1.0"
+description = "Agno agent with website knowledge base"
+requires-python = ">=3.10"
+dependencies = [
+    "agno",
+    "openai",
+    "beautifulsoup4",
+    "qdrant-client",
+    "chonkie",
+    "requests",
+    "tiktoken",
+    "sentence-transformers",
+    "fastapi",
+    "uvicorn[standard]",
+    "python-multipart",
+    "playwright",
+]
+
